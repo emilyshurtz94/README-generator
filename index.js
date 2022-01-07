@@ -10,13 +10,13 @@ const generateReadme = ({title,description,installation,usage,credits,tests,lice
     ${description}
 
 ## Table of Contents
-*[Description](#description) 
-*[Installation](#installation)
-*[Usage](#usage)
-*[License](#license)
-*[Credits](#credits)
-*[Tests](#tests)
-*[Questions] (#questions)
+- [Description](#description) 
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Credits](#credits)
+- [Tests](#tests)
+- [Questions](#questions)
 
 
 ## Installation
@@ -36,8 +36,8 @@ const generateReadme = ({title,description,installation,usage,credits,tests,lice
 
 ##Questions
 
-Here is a link to my GitHub profile ${username}.
-If you have any questions or would like to contribute to this  project you can email me at ${email}.
+- Here is a link to my GitHub profile ${username}.
+- If you have any questions or would like to contribute to this  project you can email me at ${email}.
 `
 // TODO: Create an array of questions for user input
 const questions = [
