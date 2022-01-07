@@ -12,7 +12,7 @@ https://watch.screencastify.com/v/3o3jkx4hEdi8Js3rf3LK
 - [License](#license)
 - [Credits](#credits)
 - [Tests](#tests)
-- [Questions] (#questions)
+- [Questions](#questions)
 
 
 ## Installation
