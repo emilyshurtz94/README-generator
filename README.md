@@ -32,5 +32,5 @@ https://watch.screencastify.com/v/3o3jkx4hEdi8Js3rf3LK
 
 ## Questions
 
-- Here is a link to my GitHub profile github.com/emilyshurtz94
+- Here is a link to my GitHub profile https://github.com/emilyshurtz94
 - If you have any questions or would like to contribute to this  project you can email me at emily.shurtz94@gmail.com.
