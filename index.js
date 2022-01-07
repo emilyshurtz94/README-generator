@@ -10,11 +10,11 @@ const generateReadme = ({title,description,installation,usage,credits,tests,lice
 ${description}
 
 ## Table of Contents
--Description ${data.description}
--Installation${data.installation}
--Usage${data.usage}
--License${data.license}
--Credits${data.credits}
+-[Description]
+-[Installation]
+-[Usage]
+-[License] 
+-[Credits] 
 
 
 ## Installation
@@ -50,22 +50,22 @@ const questions = [
     },
     {
         type: 'Input',
-        message: 'What is your project description',
+        message: 'Project description',
         name: 'description',
     },
     {
         type: 'Input',
-        message: 'What is your project installation instructions?',
+        message: 'What are the steps to install your project?',
         name: 'installation',
     },
     {
         type: 'Input',
-        message: 'What is your project usage information?',
+        message: 'Provide instructions and examples for use?',
         name: 'usage',
     },
     {
         type: 'Input',
-        message: 'What is your project contribution guidelines?',
+        message: 'Who contributed to this project?',
         name: 'contribution',
     },
     {
