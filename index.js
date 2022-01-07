@@ -7,32 +7,35 @@ const generateReadme = ({title,description,installation,usage,credits,tests,lice
 `# ${title}
 
 ## Description
-${description}
+    ${description}
 
 ## Table of Contents
--[Description]
--[Installation]
--[Usage]
--[License] 
--[Credits] 
+*[Description](#description) 
+*[Installation](#installation)
+*[Usage](#usage)
+*[License](#license)
+*[Credits](#credits)
+*[Tests](#tests)
+*[Questions] (#questions)
 
 
 ## Installation
-${installation}
+    ${installation}
 
 ## Usage
-${usage}
+    ${usage}
 
 ## License
-${license}
+    ${license}
 
 ## Contributing
-${credits}
+    ${credits}
 
 ## Tests
-${tests}
+    ${tests}
 
 ##Questions
+
 Here is a link to my GitHub profile ${username}.
 If you have any questions or would like to contribute to this  project you can email me at ${email}.
 `
@@ -45,7 +48,7 @@ const questions = [
     },
     {   type:'list',
         message:'Choose license',
-        choices:['Apache-2.0','MIT','BSD','GPL'],
+        choices:['MIT/Apache-2.0','MIT','BSD','GPL'],
         name: 'license'
     },
     {
@@ -55,7 +58,7 @@ const questions = [
     },
     {
         type: 'Input',
-        message: 'What are the steps to install your project?',
+        message: 'What installations did you use for your project?',
         name: 'installation',
     },
     {

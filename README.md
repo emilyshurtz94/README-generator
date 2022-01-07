@@ -1,31 +1,35 @@
 # README Generator
+https://watch.screencastify.com/v/3o3jkx4hEdi8Js3rf3LK
 
 ## Description
-This project was created to help users create a professional README to impress future employers and other developers. 
+    This project was created to help users create a professional README to show future employers. And to help create future README.md files for future projects.
 
 ## Table of Contents
--[Description]
--[Installation]
--[Usage]
--[License] 
--[Credits] 
+*[Description](#description) 
+*[Installation](#installation)
+*[Usage](#usage)
+*[License](#license)
+*[Credits](#credits)
+*[Tests](#tests)
+*[Questions] (#questions)
 
 
 ## Installation
-First download this repository from GitHub, and then run node and fill out the questions.
+    Inquirer and Node
 
 ## Usage
-Once you download the repository open up the files in VS code. And then run node index.js.
+    Download the repository. Run code in VS code. And then run node index.js and answer all the questions.
 
 ## License
-MIT
+    MIT/Apache-2.0
 
 ## Contributing
-undefined
+    Emily
 
 ## Tests
-Try this out for all future projects.
+    Try this project to create README.md files.
 
 ##Questions
+
 Here is a link to my GitHub profile emilyshurtz94.
 If you have any questions or would like to contribute to this  project you can email me at emily.shurtz94@gmail.com.

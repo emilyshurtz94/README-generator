@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   if (license !== ``) {
 
-    return `${license}`
+    return `${license}![Crates.io](https://img.shields.io/crates/l/rustc-serialize/0.3.24)`
   } else {
     return ''
   }
@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== ``) {
-    return `https://img.shields.io/crates/l/ ${license}`
+    return `![Crates.io](https://img.shields.io/crates/l/rustc-serialize/0.3.24) ${license}`
   } else {
     return ''
   }
